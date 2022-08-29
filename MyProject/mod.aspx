@@ -11,6 +11,10 @@
          <div class="col">
                 <div class="colm2"><asp:Label>Name</asp:Label></div>
             </div>
+          <div class="col">
+          <div class="colm2"><asp:Label>Register No</asp:Label></div>
+         </div>
+        
          <div class="col">
                 <div class="colm3"><asp:Label>Section A</asp:Label></div>
             </div>
@@ -41,7 +45,7 @@
            
         <div class="col">
             <div class="input-group input-group-sm mb-3">
-            <input type="text" name="name" class="colm" placeholder="1">
+            <div class="colm"><asp:Label>Register No</asp:Label></div>
             </div>
         </div>
         
@@ -142,8 +146,8 @@
         </div>
         
         </div>
-      </div>
-
+</div>
+  
 </body>
 </html>
 </asp:Content>
