@@ -137,7 +137,7 @@
         
         <div class="col">
             <div class="input-group input-group-sm mb-3">
-            <input type="text" name="name" class="colm" placeholder="1">
+            <input type="text" name="name" class="colm6" placeholder="1">
             </div>
         </div>
         
