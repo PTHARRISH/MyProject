@@ -1,0 +1,38 @@
+﻿.footerlinks {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+.footercolor {
+    background-color: #4B2D83;
+}
+
+.footercolor a{
+    text-decoration:none;
+    color:grey;
+}
+.footercolor a:hover{
+    color:white;
+}
+
+.main-h1{
+    color:red;
+}
+.signincolor:hover{
+    font-weight:600;
+}
+.navhomecolor:hover{
+    font-weight: 600;
+}
+.navaboutuscolor:hover {
+    font-weight: 600;
+}
+.navcontactuscolor:hover {
+    font-weight: 600;
+}
+.mainselector{
+    font-size:x-large;
+    text-decoration:none;
+}
+.mainselector:hover {
+    font-weight:600;
+}

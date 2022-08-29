@@ -1,0 +1,124 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="MyProject.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <%-- bootstrap css --%>
+    <link href="bootstap/css/bootstrap.min.css" rel="stylesheet" />
+    <%-- datatables css --%>
+    <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <%-- fontawesome css  --%>
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <%-- customcss --%>
+    <link href="css/customstylesheet.css" rel="stylesheet" />
+    <%-- jquery  --%>
+    <script src="bootstap/js/jquery.min.js"></script>
+    <%-- popper js  --%>
+    <script src="bootstap/js/popper.min.js"></script>
+    <%-- bootstrap js --%>
+    <script src="bootstap/js/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="colordiv">
+            <nav class="navbar navbar-expand-lg" style="background-color:#4B2D83; color:white">
+                
+                <a class="navbar-brand" href="#" style="color:white" >
+                    <img src="imgs/SRM%20Logo.jpg" width="30" height="30"/>
+                    SRM Arts & Science College
+                </a>
+                  <button data-toggle="collapse" data-target="#navbarToggler" type="button" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+                 <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active navhomecolor" aria-current="page" href="HomePage.aspx" style="color:white">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navaboutuscolor" href="#" style="color:white">AboutUs</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link navcontactuscolor" href="#" style="color:white">ContactUs</a>
+        </li>               
+      </ul>    
+         <ul class="navbar-nav mb-2 mb-lg-0">
+        
+          <li class="nav-item">
+              <a class="nav-link signincolor" style="color:white" href="StudentLogIn.aspx">Student LogIn</a>
+          
+        </li> 
+             <li class="nav-item">
+                 <a class="nav-link signincolor" style="color:white" href="StaffLogIn.aspx">Staff LogIn</a>
+          
+        </li> 
+      </ul>    
+    </div>
+                    
+            </nav>
+        </div>
+        <br />
+        <!-- Main Content Placeholder -->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <!-- Main Content Placeholder -->
+
+        <!-- Footer -->
+        <footer class="footercolor">
+            <div id="footer1" class="container-fluid ">
+               <div class="container top-footer p-md-3 p-1">
+      <div class="row">
+        <div class="col-md-3 pl-4 pr-4">
+          <img class="img-fluid" src="imgs/logo_text_white_small.png" alt="">
+          <h6 style="color:white">
+            SRM Nagar, Kattankulathur, Chengalpattu Dist -603 203<br />
+Ph: 044-27454862/4863/1456
+          </h6>
+          
+        </div>
+
+        <div class="col-md-3  pl-4 pr-4" style="color:white">
+          <h3>Important Links</h3>
+          <a href="#">Privacy Policy</a><br>          
+          <a href="#">Blog Articles </a><br>
+        </div>
+
+        <div class="col-md-3  pl-4 pr-4" style="color:white">
+          <h3>Social Platforms</h3>
+            <br />
+          <a style="color:silver;" class="p-1" href="https://www.facebook.com/srmasc.ac.in/?ref=bookmarks"><i class="fab fa-2x fa-facebook-square"></i></a>     
+          <a style="color: silver;" class="p-1" href="https://twitter.com/srm_asc"><i class="fab fa-2x fa-twitter-square"></i></a>
+          <a style="color: silver;" class="p-1" href="https://www.instagram.com/srmartsandsciencecollege/"><i class="fab fa-2x fa-instagram"></i></a>
+        </div>
+     
+      <div class="col-md-3  pl-4 pr-4" style="color:white">
+          <h3>Contact Us</h3>
+          <a href="#"><i class="fas fa-phone"></i> +(91) 8939691482  </a><br>
+          <a href="#"><i class="fas fa-envelope"></i> Srmartsandscience(at)Yahoo.Co.In  </a><br>
+          <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.2697658849147!2d80.04137511482047!3d12.82583659095159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f70d7459c4e9%3A0x267b753b21de9672!2sSRM%20Arts%20and%20Science%20College!5e0!3m2!1sen!2sin!4v1661698843685!5m2!1sen!2sin" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          
+      </div>
+    </div>
+    </div>
+    <div class="container-fluid bottom-footer pt-2">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p style="color:white">Copyrights © 2022 - All rights reserved</p>
+        </div>
+      </div>
+    </div>
+            </div>
+           
+
+        </footer>
+        <!-- ./Footer -->
+
+    </form>
+</body>
+</html>
