@@ -36,3 +36,32 @@
 .mainselector:hover {
     font-weight:600;
 }
+
+.colm
+{
+    margin:5px;
+
+    width:30px;
+}
+colm1 {
+    text-align:left;
+    width: 100px;
+}
+.colm2 {
+    width: 100px;
+}
+.colm3 {
+    width: 100px;
+}
+
+.colm4 {
+    width: 100px;
+}
+
+.colm5 {
+    width: 100px
+}
+.colm6 {
+    text-align:right;
+    width: 300px;
+}

@@ -2153,6 +2153,7 @@
     <Content Include="imgs\SRM Logo.jpg" />
     <Content Include="imgs\Staff Image.jpg" />
     <Content Include="imgs\Student Image.jpg" />
+    <Content Include="mod.aspx" />
     <Content Include="StaffLogIn.aspx" />
     <Content Include="StaffRegistrationPage.aspx" />
     <Content Include="StudentLogIn.aspx" />
@@ -2179,6 +2180,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="mod.aspx.cs">
+      <DependentUpon>mod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mod.aspx.designer.cs">
+      <DependentUpon>mod.aspx</DependentUpon>
     </Compile>
     <Compile Include="StaffLogIn.aspx.cs">
       <DependentUpon>StaffLogIn.aspx</DependentUpon>
