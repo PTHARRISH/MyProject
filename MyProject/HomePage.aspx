@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container text-center">
+    <div class="container-fluid text-center">
         <div class="row">
             <div class="col-md-12">
                 <h1 style="color:#4B2D83">Welcome to SRM Arts and Science College</h1>

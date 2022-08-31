@@ -2153,7 +2153,12 @@
     <Content Include="imgs\SRM Logo.jpg" />
     <Content Include="imgs\Staff Image.jpg" />
     <Content Include="imgs\Student Image.jpg" />
-    <Content Include="mod.aspx" />
+    <None Include="Scripts\jquery-1.8.0.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.0.js" />
+    <Content Include="Scripts\jquery-1.8.0.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="StaffLogIn.aspx" />
     <Content Include="StaffRegistrationPage.aspx" />
     <Content Include="StudentLogIn.aspx" />
@@ -2180,13 +2185,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="mod.aspx.cs">
-      <DependentUpon>mod.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="mod.aspx.designer.cs">
-      <DependentUpon>mod.aspx</DependentUpon>
     </Compile>
     <Compile Include="StaffLogIn.aspx.cs">
       <DependentUpon>StaffLogIn.aspx</DependentUpon>

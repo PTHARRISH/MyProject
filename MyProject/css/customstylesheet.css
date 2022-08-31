@@ -36,64 +36,9 @@
 .mainselector:hover {
     font-weight:600;
 }
-
-.colm
-{
-    padding:5px;
-    margin-left:5px;
-    width:50px;
+.clickhereredirect{
+    text-decoration:none;
 }
-.colm1 {
-    padding:5px;
-    width:30px;
-}
-.colm2 {
-    padding:5px;
-    margin-left:-130px;
-    width: 30px;
-}
-.colm3 {
-    padding: 5px;
-    width: 90px;
-    margin-left: -140px;
-}
-.colm4 {
-    padding: 5px;
-    width: 90px;
-    margin-left: 20px;
-}
-.colm5 {
-    padding: 5px;
-    width: 90px;
-    margin-left: 80px;
-}
-.colm6 {
-    margin-left:120px;
-    padding: 5px;
-    width: 20px;
-}
-.colm7 {
-    padding-top:5px;
-    padding-bottom:5px;
-    margin-left: -270px;
-    width: 90px;
-}
-.colm8 {
-    padding: 5px;
-    width: 80px;
-}
-
-.colm9 {
-    padding: 5px;
-    width: 100px;
-}
-.mains {
-    position: relative;
-    margin-bottom:50px;
-    margin-left:-150px;
-    margin-right:-150px;
-    padding: 15px;
-    background-color: #ecf0f3;
-    border-radius: 12px;
-    overflow: hidden;
+.clickhereredirect:hover{
+    font-weight:700;
 }
