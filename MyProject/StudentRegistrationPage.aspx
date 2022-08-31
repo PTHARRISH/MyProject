@@ -11,7 +11,7 @@
                   <div class="row">
                      <div class="col">
                         <center>
-                           <img width="100" src="imgs/generaluser.png"/>
+                            <img width="100" src="imgs/Student%20Image.jpg" />
                         </center>
                      </div>
                   </div>
@@ -33,7 +33,7 @@
                      <div class="col-md-6">
                         <label>Full Name</label>
                         <div class="form-group">
-                           <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="Full Name"></asp:TextBox>
+                           <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="Full Name" ></asp:TextBox>
                         </div>
                      </div>
                      <div class="col-md-6">
@@ -58,7 +58,7 @@
                      </div>
                   </div>
                   <div class="row">
-                     <div class="col-md-3">
+                     <div class="col-md-4">
                         <label>State</label>
                         <div class="form-group">
                            <asp:DropDownList class="form-control" ID="DropDownList1" runat="server">
@@ -96,26 +96,43 @@
                            </asp:DropDownList>
                         </div>
                      </div>
-                     <div class="col-md-3">
-                        <label>City</label>
+                      <div class="col-md-4">
+                        <label>Degree</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox6" runat="server" placeholder="City"></asp:TextBox>
+                           <asp:DropDownList class="form-control" ID="DropDownList2" runat="server">
+                              <asp:ListItem Text="Select" Value="select" />
+                              <asp:ListItem Text="MCA" Value="MCA" />
+                              <asp:ListItem Text="MBA" Value="MBA" />  
+                               <asp:ListItem Text="MSc.CST" Value="MSc.CST" />
+                               <asp:ListItem Text="BCA" Value="BCA" /> 
+                               <asp:ListItem Text="BSc.Computer Science" Value="BSc.Computer Science" /> 
+                               <asp:ListItem Text="BSc.Maths" Value="BSc.Maths" /> 
+                          </asp:DropDownList>
                         </div>
                      </div>
-                     <div class="col-md-3">
-                        <label>Pincode</label>
-                        <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox7" runat="server" placeholder="Pincode" TextMode="Number"></asp:TextBox>
-                        </div>
-                     </div>
-                       <div class="col-md-3">
+                     
+                     
+                       <div class="col-md-4">
                         <label>Aadhar Number</label>
                         <div class="form-group">
                            <asp:TextBox class="form-control" ID="TextBox5" runat="server" placeholder="Enter Aadhar No." TextMode="Number"></asp:TextBox>
                         </div>
                      </div>
                   </div>
-                  
+                  <div class="row">
+                       <div class="col-md-6">
+                        <label>City</label>
+                        <div class="form-group">
+                           <asp:TextBox class="form-control" ID="TextBox11" runat="server" placeholder="City"></asp:TextBox>
+                        </div>
+                     </div>
+                      <div class="col-md-6">
+                        <label>Pincode</label>
+                        <div class="form-group">
+                           <asp:TextBox class="form-control" ID="TextBox12" runat="server" placeholder="Pincode" TextMode="Number"></asp:TextBox>
+                        </div>
+                     </div>
+                  </div>
                   <div class="row">
                      <div class="col">
                         <center>
@@ -127,13 +144,13 @@
                      <div class="col-md-4">
                         <label>User ID</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox8" runat="server" placeholder="User ID" ReadOnly="True"></asp:TextBox>
+                           <asp:TextBox class="form-control" ID="TextBox8" runat="server" placeholder="User ID" ></asp:TextBox>
                         </div>
                      </div>
                      <div class="col-md-4">
                         <label>New Password</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="New Password" TextMode="Password" ReadOnly="True"></asp:TextBox>
+                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="New Password" TextMode="Password" ></asp:TextBox>
                         </div>
                      </div>
                      <div class="col-md-4">
@@ -148,7 +165,7 @@
                      <div class="col-8 mx-auto">
                         <center>
                            <div class="form-group">
-                              <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="Submit" />
+                              <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" />
                            </div>
                         </center>
                      </div>
@@ -156,6 +173,8 @@
                </div>
             </div>
             <a style="text-decoration:none;font-weight:500" href="homepage.aspx"><< Back to Home</a><br><br>
+             <p style="text-decoration:none;font-weight:500;color:#0d6efd;font-size:large" >Already a User! <a class="clickhereredirect" href="StudentLogIn.aspx">Click Here <-</a></p>
+             
          </div>
       </div>
    </div>

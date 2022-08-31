@@ -42,13 +42,13 @@
                      <div class="col-md-6">
                         <label style="font-weight:600">Username / ID</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox8" runat="server" placeholder="Enter Username / ID" ReadOnly="True"></asp:TextBox>
+                           <asp:TextBox class="form-control" ID="TextBox8" runat="server" placeholder="Enter Username / ID" ></asp:TextBox>
                         </div>
                      </div>
                      <div class="col-md-6">
                         <label style="font-weight:600">Password</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="Enter Password" TextMode="Password" ReadOnly="True"></asp:TextBox>
+                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="Enter Password" TextMode="Password" ></asp:TextBox>
                         </div>
                      </div>                    
                   </div>
@@ -57,11 +57,16 @@
                      <div class="col-8 mx-auto">
                         <center>
                            <div class="form-group">
-                              <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="LogIn" />
+                              <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="LogIn" OnClick="Button1_Click" />
                            </div>
                         </center>
                      </div>
                   </div>
+                   <div class="row">
+                       <div class="col-md-4">
+                           <a style="text-decoration:none;font-weight:500" href="#">Forget Password?</a>
+                       </div>
+                   </div>
                </div>
             </div>
             <a style="text-decoration:none;font-weight:500" href="homepage.aspx"><< Back to Home</a><br><br>
