@@ -1,0 +1,20 @@
+﻿table, th, td {
+    border: 1px solid;
+}
+table {
+    border-collapse: collapse;
+    height:50px;
+    width: 100%;
+}
+
+th {
+    height: 10px;
+    width: 100%;
+}
+.col{
+    width:50%;
+}
+.colm{
+    width:30%;
+    padding:5px;
+}
