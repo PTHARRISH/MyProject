@@ -145,6 +145,4 @@
 
   </div>
 
-</body>
-</html>
 </asp:Content>

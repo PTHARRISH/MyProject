@@ -93,6 +93,7 @@
     <Content Include="bootstap\js\jquery.min.js" />
     <Content Include="bootstap\js\popper.min.js" />
     <Content Include="css\customstylesheet.css" />
+    <Content Include="css\style.css" />
     <Content Include="datatables\css\jquery.dataTables.min.css" />
     <Content Include="datatables\js\jquery.dataTables.min.js" />
     <Content Include="fontawesome\css\all.css" />
@@ -2150,6 +2151,7 @@
     <Content Include="fontawesome\svgs\solid\yin-yang.svg" />
     <Content Include="fontawesome\svgs\solid\z.svg" />
     <Content Include="Global.asax" />
+    <Content Include="img.jpg" />
     <Content Include="imgs\SRM Logo.jpg" />
     <Content Include="imgs\Staff Image.jpg" />
     <Content Include="imgs\Student Image.jpg" />
@@ -2178,6 +2180,7 @@
     <Content Include="imgs\search-online.png" />
     <Content Include="imgs\sign-up.png" />
     <Content Include="imgs\writer.png" />
+    <Content Include="teacher.aspx" />
     <Content Include="Web.config" />
     <Content Include="HomePage.aspx" />
   </ItemGroup>
@@ -2228,6 +2231,13 @@
     </Compile>
     <Compile Include="HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teacher.aspx.cs">
+      <DependentUpon>teacher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teacher.aspx.designer.cs">
+      <DependentUpon>teacher.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
