@@ -61,14 +61,14 @@
                 <th>
                     <div class="col">
                         <div class="input-group input-group-sm mb-3">
-                            <input type="text" name="name" class="colm8" placeholder="Name">
+                            <input type="text" name="name" class="colm9" placeholder="Name">
                         </div>
                     </div>
                 </th>
                 <th>
                     <div class="col">
                         <div class="input-group input-group-sm mb-3">
-                            <input type="text" name="regno" class="colm8" placeholder="Register No">
+                            <input type="text" name="regno" class="colm9" placeholder="Register No">
                         </div>
                     </div>
                 </th>
@@ -98,7 +98,7 @@
                 </th>
                 <th>
                     <div class="col">
-                        <div class="input-group input-group-sm mb-3">
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator><div class="input-group input-group-sm mb-3">
                             <input type="text" name="13" class="colm2" placeholder="13">
                             <input type="text" name="14" class="colm2" placeholder="14">
                         </div>
