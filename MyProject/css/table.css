@@ -1,20 +1,26 @@
-﻿table, th, td {
+﻿.table, th, td {
     border: 1px solid;
 }
+
 table {
-    border-collapse: collapse;
-    height:50px;
-    width: 100%;
+    height: 50px;
+    width: 10%;
 }
 
 th {
     height: 10px;
-    width: 100%;
+    width: 10%;
 }
-.col{
-    width:50%;
+
+.col {
+    width: 50%;
 }
-.colm{
-    width:30%;
-    padding:5px;
+
+.colm {
+    width: 30%;
+    padding: 5px;
+}
+
+.container {
+    margin-left: -100px;
 }

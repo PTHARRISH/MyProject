@@ -1,0 +1,27 @@
+﻿
+.table,th,td{
+    border: 1px;
+
+}
+
+.colm {
+    width: 10%;
+    margin: 5px;
+    padding: 5px;
+}
+.colm1 {
+    width: 15%;
+    margin: 5px;
+    padding: 5px;
+}
+.colm2 {
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+}
+.colm8{
+    width:100%;
+    margin:5px;
+    padding:5px;
+}
+
