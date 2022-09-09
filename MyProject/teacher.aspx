@@ -15,7 +15,7 @@
         <div class="sidebar">
            <!--profile image & text-->
            <div class="profile">
-            <img src="img.jpg">
+            <img src="imgs.jpg">
             <h3>User Id</h3>
         </div>
             <!--menu item-->
